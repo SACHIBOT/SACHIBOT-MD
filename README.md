@@ -22,4 +22,4 @@
 - [@sanuwaofficial](https://github.com/sanuwaofficial) for apk downloader and help [sanuwaofficial](https://github.com/sanuwaofficial) 
 - [@edm-official](https://github.com/edm-official) for base and help [edm-official](https://github.com/edm-official) 
 - [@DarkMakerofc](https://github.com/DarkMakerofc) for base and help [DarkMakerofc](https://github.com/DarkMakerofc) 
-- [@SACHIBOT](https://github.com/DarkMakerofc) for base and help [DarkMakerofc](https://github.com/SACHIBOT) 
+- [@SACHIBOT](https://github.com/DarkMakerofc) for base and help [SACHIBOT](https://github.com/SACHIBOT) 
