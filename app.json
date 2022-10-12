@@ -1,0 +1,108 @@
+{
+  "name": "SACHIBOT-MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/SACHIBOT/SACHIBOT-MD",
+  "logo": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": {
+  
+"ALIVE_MSG" :{
+    "description" : "alive message",
+    "required" : true,
+  "value" : "Alive now"
+    },
+"SESSION_ID" :{
+    "description" : "SESSION_ID http://Secktorbot.herokuapp.com/qr",
+    "required" : true,
+  "value" : ""
+},
+"ALIVE_LOGO" :{
+    "description" : "alive logo",
+    "required" : true,
+  "value" : "https://raw.githubusercontent.com/SACHIBOT/SACHIBOT/main/LOGO.jpg"
+},
+"FOOTER" :{
+    "description" : "Footer Name",
+    "required" : true,
+  "value" : "SACHIBOT"
+},
+"OWNER_NAME" :{
+    "description" : "Owner Name",
+    "required" : true,
+  "value" : "SACHINTHA FDO"
+},
+    "OWNER_NUMBER" :{
+    "description" : "Owner Number",
+    "required" : true,
+  "value" : "+94725881990"
+},
+    "SONG_DOWN" :{
+    "description" : "Song downloading txt",
+    "required" : true,
+  "value" : "*📥 Downloading your song...*"
+},
+        "SONG_UP" :{
+    "description" : "Song uploading txt",
+    "required" : true,
+  "value" : "*📤 Uploading your song...*"
+},
+            "VIDEO_DOWN" :{
+    "description" : "video down txt",
+    "required" : true,
+  "value" : "*📥 Downloading your video...*"
+},
+                "VIDEO_UP" :{
+    "description" : "video up txt",
+    "required" : true,
+  "value" : "*📤 Uploading your video...*"
+},
+                        "FILE_DOWN" :{
+    "description" : "video up txt",
+    "required" : true,
+  "value" : "*📥Downloading your file...*"
+},
+                    "FILE_UP" :{
+    "description" : "video up txt",
+    "required" : true,
+  "value" : "*📤Uploading your file...*"
+},
+                        "CAPTION" :{
+    "description" : "yre caption",
+    "required" : true,
+  "value" : "*_DOWNLOADED BY_* 𝙎𝘼𝘾𝙃𝙄 𝘽𝙊𝙏 *_MD_*"
+},
+                        "BUTTON" :{
+    "description" : "alive button txt",
+    "required" : true,
+  "value" : "WA-GROUP"
+},
+                            "BUTTONURL" :{
+    "description" : "alive button url",
+    "required" : true,
+  "value" : "https://chat.whatsapp.com/KTGspPJKiVNATiXDvgXvpM"
+}, 
+                           "onlygroup" :{
+    "description" : "onlygroup",
+    "required" : true,
+  "value" : "false"
+} 
+    },
+  
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      }
+  }
