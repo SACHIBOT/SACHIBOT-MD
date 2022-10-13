@@ -2,7 +2,7 @@
   "name": "SACHIBOT-MD",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/SACHIBOT/SACHIBOT-MD",
-  "logo": "",
+  "logo": "https://raw.githubusercontent.com/SACHIBOT/SACHIBOT/main/LOGO.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": {
   
@@ -14,7 +14,7 @@
 "SESSION_ID" :{
     "description" : "SESSION_ID http://Secktorbot.herokuapp.com/qr",
     "required" : true,
-  "value" : ""
+  "value" : "U2FsdGVkX19I5LjoD+8fHyhTvg0dflFGpRdRuQaAYBY="
 },
 "ALIVE_LOGO" :{
     "description" : "alive logo",
@@ -69,7 +69,7 @@
                         "CAPTION" :{
     "description" : "yre caption",
     "required" : true,
-  "value" : "*_DOWNLOADED BY_* 𝙎𝘼𝘾𝙃𝙄 𝘽𝙊𝙏 *_MD_*"
+  "value" : "*DOWNLOADED BY SACHIBOT-MD*"
 },
                         "BUTTON" :{
     "description" : "alive button txt",
